@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign up</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <link rel="stylesheet" href="CSS/registerstyles.css" />
+  </head>
+
+  <body>
+    <form class="formulario" method="POST">
+      <h1>Sign up</h1>
+      <div class="contenedor">
+        <div class="input-contenedor">
+          <i class="fas fa-user icon"></i>
+          <input type="text" placeholder="First Name*" required />
+        </div>
+        <div class="input-contenedor">
+          <i class="fas fa-user icon"></i>
+          <input type="text" placeholder="Last Name*" required />
+        </div>
+        <div class="input-contenedor">
+          <i class="fas fa-calendar-day icon"></i>
+          <input type="text" placeholder="Age*" required />
+        </div>
+        <div class="input-contenedorSex">
+          <i class="fas fa-venus-mars iconSex"></i>
+          <label for=""
+            >Woman
+            <input type="radio" name="sexo" value="mujer" />
+          </label>
+          <label for=""
+            >Man
+            <input type="radio" name="sexo" value="man" />
+          </label>
+        </div>
+        <div class="input-contenedor">
+          <i class="fas fa-calendar-check icon"></i>
+          <input type="date" placeholder="Date Of Birth*" required />
+        </div>
+        <div class="input-contenedor">
+          <i class="fas fa-envelope icon"></i>
+          <input type="text" placeholder="Email Addres*" required />
+        </div>
+        <div class="input-contenedor">
+          <i class="fas fa-key icon"></i>
+          <input type="password" placeholder="Set A Password*" required />
+        </div>
+        <div class="input-contenedor">
+          <i class="fas fa-key icon"></i>
+          <input type="password" placeholder="Confirm A Password*" required />
+        </div>
+        <input type="submit" value="Sign up" class="button" />
+        <p>By registering, you agree to our Terms of Use and Privacy Policy.</p>
+        <p>
+          ¿Do you already have an account?<a class="link" href="index.html">
+            Log in</a
+          >
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

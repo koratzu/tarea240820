@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #f1faee;
+  color: #1d3557;
+}
+h1 {
+  text-align: center;
+  margin: 9% auto;
+}
+form {
+  width: 80%;
+  height: 70%;
+}
+.forgot {
+  text-decoration: none;
+  color: #1d3557;
+}
+.forgot:hover,
+.forgot:active {
+  color: #457b9d;
+}
+.header {
+  width: 60%;
+  height: 100vh;
+  float: left;
+}
+.header-content {
+  width: 100%;
+  height: 100%;
+  background-color: #1d3557;
+  display: flex;
+  justify-content: center;
+}
+.login {
+  width: 40%;
+  height: 100vh;
+  float: right;
+}
+.login-content {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-form {
+  height: 45%;
+  width: 65%;
+  margin: auto;
+  border: 1px solid #1d3557;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 24px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1d3557;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 24px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1d3557;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #1d3557;
+  color: #f1faee;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="button"] {
+  width: 100%;
+  background-color: #1d3557;
+  color: #f1faee;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #457b9d;
+}
+input[type="button"]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #457b9d;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.imgr {
+  -webkit-animation: 6s rotate linear infinite;
+  animation: 6s rotate linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.imgr2 {
+  -webkit-animation: 6s rotate linear infinite;
+  animation: 6s rotate linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+}
+#imgr1 {
+  position: relative;
+  left: 10px;
+  top: 200px;
+}
+#imgr2 {
+  position: relative;
+  right: 25px;
+  top: 500px;
+}
